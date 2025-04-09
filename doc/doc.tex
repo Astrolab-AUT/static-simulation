@@ -5,7 +5,7 @@
 \usepackage{geometry}
 \geometry{a4paper, margin=1in}
 
-\title{Documentation: Simulation of Observable Effects of Cluster Member Speed Reduction}
+\title{Documentation: Simulation of Observable Effects of Cluster Member Speed Increase}
 \author{Mohammadali Taefi}
 \date{\today}
 
@@ -55,13 +55,11 @@
 	
 	Field stars are generated randomly within a defined cubic volume. This represents the general background population of stars in the galaxy.
 	
-	\paragraph{Velocity Distribution}
 	
-	Field stars are also assigned velocities from a Gaussian distribution, but with different parameters (mean and dispersion) than the cluster stars, to reflect the distinct kinematic properties of the field population.
 	
 	\paragraph{Justification}
 	
-	Random spatial distribution is a simplified representation of the field star distribution. The Gaussian velocity distribution is, again, a common statistical model.
+	Random spatial distribution is a simplified representation of the field star distribution. 
 	
 	\subsection{Speed Modification}
 	
@@ -162,6 +160,32 @@
 	
 	The plots of proper motion vectors are particularly important, as they can reveal the overall motion of the cluster and any internal kinematic structure. 
 	
-	The simulation can help to understand the challenges in interpreting real observational data and the importance of considering various factors that can affect the observed properties of star clusters.
+	The simulation can help to understand the challenges in interpreting real observational data and the importance of considering various factors that can affect the observed properties of star clusters.\\
+	
+	
+The figures below illustrate three different states of a synthetic cluster, each with distinct speed conditions:
+\begin{itemize}
+	\item Default speed, as shown in Figure~\ref{fig:default}.
+	\item A constant speed added to every member, depicted in Figure~\ref{fig:constant}.
+	\item Speed added based on the position relative to the cluster center, presented in Figure~\ref{fig:Gaussian}.
+\end{itemize}
+	\begin{figure}[h] % 'h' places the figure approximately "here"
+		\centering
+		\includegraphics[width=0.5\textwidth]{default-speed.png} % Replace 'example-image' with your image file name
+		\caption{} % Add your caption text here
+		\label{fig:default} % Label for referencing the figure
+	\end{figure}
+	\begin{figure}[h] % 'h' places the figure approximately "here"
+		\centering
+		\includegraphics[width=0.5\textwidth]{constant-speed.png} % Replace 'example-image' with your image file name
+		\caption{} % Add your caption text here
+		\label{fig:constant} % Label for referencing the figure
+	\end{figure}
+	\begin{figure}[h] % 'h' places the figure approximately "here"
+		\centering
+		\includegraphics[width=0.5\textwidth]{gaussian-speed.png} % Replace 'example-image' with your image file name
+		\caption{} % Add your caption text here
+		\label{fig:Gaussian} % Label for referencing the figure
+	\end{figure}
 	
 \end{document}

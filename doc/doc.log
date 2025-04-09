@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.26)  9 APR 2025 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.26)  9 APR 2025 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -243,21 +243,50 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/innovers/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
-[3] (doc.aux)
+ []
+
+
+
+[3]
+<default-speed.png, id=18, 1557.82pt x 1184.425pt>
+File: default-speed.png Graphic file (type png)
+<use default-speed.png>
+Package pdftex.def Info: default-speed.png  used on input line 174.
+(pdftex.def)             Requested size: 226.48395pt x 172.19807pt.
+<constant-speed.png, id=20, 1540.75626pt x 1184.425pt>
+File: constant-speed.png Graphic file (type png)
+<use constant-speed.png>
+Package pdftex.def Info: constant-speed.png  used on input line 180.
+(pdftex.def)             Requested size: 226.48395pt x 174.09573pt.
+<gaussian-speed.png, id=21, 1540.75626pt x 1184.425pt>
+File: gaussian-speed.png Graphic file (type png)
+<use gaussian-speed.png>
+Package pdftex.def Info: gaussian-speed.png  used on input line 186.
+(pdftex.def)             Requested size: 226.48395pt x 174.09573pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[4 <./default-speed.png> <./constant-speed.png>]
+
+[5 <./gaussian-speed.png>] (doc.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3101 strings out of 473523
- 44619 string characters out of 5724688
- 446213 words of memory out of 5000000
- 26317 multiletter control sequences out of 15000+600000
+ 3127 strings out of 473523
+ 45231 string characters out of 5724688
+ 447278 words of memory out of 5000000
+ 26343 multiletter control sequences out of 15000+600000
  565682 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,353b,220s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,353b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\innovers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
 crm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
@@ -265,9 +294,9 @@ iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmti10.pfb>
-Output written on doc.pdf (3 pages, 101418 bytes).
+Output written on doc.pdf (5 pages, 608409 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
