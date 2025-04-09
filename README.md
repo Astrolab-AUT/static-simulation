@@ -1,4 +1,4 @@
-# Simulation of Observable Effects of Cluster Member Speed Reduction
+# Simulation of Observable Effects of Cluster Member Speed Increase
 
 ## Introduction
 
